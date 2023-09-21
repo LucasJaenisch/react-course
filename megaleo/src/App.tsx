@@ -1,11 +1,15 @@
-import ListGroup from "./components/ListGroup";
+import React from "react";
+import Alert from "./components/Alert";
+import DangerButton from "./components/DangerButton";
 
-function App() {
+const App = () => {
   return (
     <div>
-      <ListGroup />
+      <DangerButton color="danger" onClick={() => console.log("Clicked")}>
+        Danger
+      </DangerButton>
     </div>
   );
-}
+};
 
 export default App;
