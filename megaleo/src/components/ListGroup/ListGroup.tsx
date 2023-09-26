@@ -1,6 +1,4 @@
 import { useState } from "react";
-// import styles from "./ListGroup.module.css";
-// import "./ListGroup.css";
 import styled from "styled-components";
 
 const List = styled.ul`
