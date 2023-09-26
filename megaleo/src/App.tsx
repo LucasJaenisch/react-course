@@ -1,13 +1,14 @@
 import React from "react";
-import Alert from "./components/Alert";
-import DangerButton from "./components/DangerButton";
+import ListGroup from "./components/ListGroup";
 
 const App = () => {
   return (
     <div>
-      <DangerButton color="danger" onClick={() => console.log("Clicked")}>
-        Danger
-      </DangerButton>
+      <ListGroup
+        items={["xaxim", "chapeco", "ita"]}
+        heading="cidades"
+        onSelectItem={(item) => console.log(item)}
+      />
     </div>
   );
 };
