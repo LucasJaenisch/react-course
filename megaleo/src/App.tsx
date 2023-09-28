@@ -1,9 +1,11 @@
-import Like from "./components/Like";
+import ExpandableText from "./components/ExpandableText";
 
 function App() {
   return (
     <div>
-      <Like onClicked={() => console.log("clicked")} />
+      <ExpandableText onClicked={() => console.log("pressed")}>
+        Hello World
+      </ExpandableText>
     </div>
   );
 }
