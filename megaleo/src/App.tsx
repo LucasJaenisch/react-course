@@ -1,11 +1,10 @@
-import ExpandableText from "./components/ExpandableText";
+// import ExpandableText from "./components/ExpandableText";
+import Form from "./components/Form";
 
 function App() {
   return (
     <div>
-      <ExpandableText onClicked={() => console.log("pressed")}>
-        Hello World
-      </ExpandableText>
+      <Form></Form>
     </div>
   );
 }
